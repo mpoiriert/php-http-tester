@@ -1,0 +1,23 @@
+{
+    "name": "draw/http-tester",
+    "type": "library",
+    "keywords": ["draw", "test", "phpunit", "http"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martin Poirier Theoret",
+            "email": "mpoiriert@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Draw\\HttpTester\\": "src//"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "phpunit/phpunit": "^6.0|^5.7",
+        "guzzlehttp/psr7": "^1.4"
+    }
+}
